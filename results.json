@@ -1,0 +1,95 @@
+[
+  {
+    "name": "default off with no inventory fetch",
+    "pass": true
+  },
+  {
+    "name": "real snapshot loaded with bounded global entities",
+    "pass": true,
+    "detail": {
+      "stats": {
+        "count": 1542,
+        "lastUpdate": 1792995565332,
+        "error": null,
+        "snapshotDate": "2026-10-01",
+        "coverage": "U.S. Gulf federal waters",
+        "static": true
+      },
+      "lod": {
+        "active": 80,
+        "budgetLimit": 80,
+        "total": 1542,
+        "materialized": 80
+      },
+      "controls": {
+        "info": "U.S. Gulf federal waters · Inventory snapshot 2026-10-01 · No removal date recorded; production status unknown",
+        "legendCategorical": true,
+        "legend": [
+          {
+            "color": "#ffb454",
+            "label": "Surface structure"
+          },
+          {
+            "color": "#63d9ef",
+            "label": "Subsea structure"
+          },
+          {
+            "color": "#b9c1cc",
+            "label": "Structure type unknown"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "coverage, date and production uncertainty visible in the panel",
+    "pass": true
+  },
+  {
+    "name": "local snapshot only",
+    "pass": true
+  },
+  {
+    "name": "regional materialization stays bounded",
+    "pass": true,
+    "detail": {
+      "active": 420,
+      "budgetLimit": 420,
+      "total": 1542,
+      "materialized": 420
+    }
+  },
+  {
+    "name": "native click selects the platform context",
+    "pass": true
+  },
+  {
+    "name": "selected card exposes accessible source action",
+    "pass": true
+  },
+  {
+    "name": "parked camera does not churn the materialized cohort",
+    "pass": true,
+    "detail": {
+      "count": 420,
+      "frames": 0
+    }
+  },
+  {
+    "name": "disable releases native targets and selection",
+    "pass": true
+  },
+  {
+    "name": "re-enable uses cached data",
+    "pass": true
+  },
+  {
+    "name": "share token restores the inventory layer",
+    "pass": true
+  },
+  {
+    "name": "no uncaught application errors",
+    "pass": true,
+    "detail": []
+  }
+]
