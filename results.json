@@ -9,7 +9,7 @@
     "detail": {
       "stats": {
         "count": 1542,
-        "lastUpdate": 1792995565332,
+        "lastUpdate": 1792996720820,
         "error": null,
         "snapshotDate": "2026-10-01",
         "coverage": "U.S. Gulf federal waters",
@@ -65,6 +65,14 @@
   },
   {
     "name": "selected card exposes accessible source action",
+    "pass": true
+  },
+  {
+    "name": "selected record has one card, without an ambient duplicate",
+    "pass": true
+  },
+  {
+    "name": "painted source action opens the BSEE catalog",
     "pass": true
   },
   {

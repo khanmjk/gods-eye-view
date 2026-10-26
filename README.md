@@ -8,7 +8,7 @@ https://github.com/bilawalsidhu/gods-eye-view/issues/1292
 - `gulf-overview.png`: bounded Gulf overview.
 - `platform-selection.png`: native platform click and shared selection card.
 - `offshore-platforms.mp4`: panel toggle, camera movement, record selection and disable.
-- `results.json`: 12 passing feature browser checks.
+- `results.json`: 14 passing feature browser checks, including the painted source-card action.
 
 Command: `node scripts/qa-offshore-platforms.mjs --url http://127.0.0.1:4173 --record`.
 Keyless app, Node 26.3.1, macOS arm64, headless system Google Chrome. The data is
